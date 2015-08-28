@@ -1,0 +1,12 @@
+### Commonly used parameters
+-r ref            # target sentences file name (in this case, file name prefix)
+-rps 4                   # references per sentence
+-p params.txt              # parameter file
+-m BLEU 4 closest                   # evaluation metric and its options
+-ipi 20                      # number of intermediate initial points
+-cmd ./SDecoder_cmd.py       # file containing commands to run decoder
+-decOut nbest.out               # file prodcued by decoder
+-dcfg SDecoder_cfg.txt        # decoder config file
+-N 500                         # size of N-best list generated each iteration
+-v 1                           # verbosity level (0-2; higher value =>
+-seed   12341234                # random number generator seed
