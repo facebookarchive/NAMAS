@@ -1,0 +1,7 @@
+LM  ||| 1.0 Fix 0.0 +Inf -1 +1
+uni ||| 0.0 Opt -Inf +Inf -1 +1
+bi  ||| 0.0 Opt -Inf +Inf -1 +1
+tri ||| 0.0 Opt -Inf +Inf -1 +1
+ooo ||| 0.0 Opt -Inf 0 -1 +1
+length ||| 0.0 Fix -Inf +Inf -1 +1
+normalization = none
