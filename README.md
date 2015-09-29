@@ -14,9 +14,8 @@ The release includes code for:
 
 ## Setup
 
-To run the system, you will need to have [Torch7](http://torch.ch/))
-and [fbcunn](https://github.com/facebook/fbcunn) (Facebook's deep
-learning library) installed. You will also need Python 2.7, NLTK, and
+To run the system, you will need to have [Torch7](http://torch.ch/)
+installed. You will also need Python 2.7, NLTK, and
 GNU Parallel to run the data processing scripts.  Additionally the
 code currently requires a CUDA GPU for training and decoding.
 

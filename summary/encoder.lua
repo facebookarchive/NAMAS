@@ -10,8 +10,6 @@
 --          Sumit Chopra <spchopra@fb.com>
 --          Jason Weston <jase@fb.com>
 
--- require('fbcunn')
-
 local encoder = {}
 
 function encoder.add_opts(cmd)
